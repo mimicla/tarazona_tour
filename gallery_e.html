@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Catedral de Tarazona</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="HandheldFriendly" content="true">
+<meta name="MobileOptimized" content="width">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="apple-touch-icon" href="touch-icon-iphone.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="touch-icon-ipad.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="touch-icon-iphone-retina.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="touch-icon-ipad-retina.png" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<!-- jQuery Mobile Recent Stable Versions-->
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+<!--scroll vertical and horizontal-->
+    <script src="http://cubiq.org/dropbox/iscroll/iscroll.js?v3.7.1"></script>
+    <script src="js/iscroll.js"></script>
+<!--photoswipe gallery-->
+<link rel="stylesheet" href="css/themes/photoswipe.css" />
+<script type="text/javascript" src="js/klass.min.js"></script>
+<script type="text/javascript" src="js/code.photoswipe.jquery-3.0.5.min.js"></script>
+<!--Tarazona Tour colors jquery mobile css-->
+<link rel="stylesheet" href="css/themes/Tarazona.min.css" /> 
+    
+<script type="text/javascript">
+var myScroll;
+function loaded() {
+        myScroll = new iScroll('wrapper', {
+                snap: 'li',
+                momentum: false,
+                hScrollbar: false,
+                vScrollbar: false,
+                zoom: true
+         });
+}
+document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+
+/* * * * * * * *
+ *
+ * Use this for high compatibility (iDevice + Android)
+ *
+ */
+document.addEventListener('DOMContentLoaded', function () { setTimeout(loaded, 200); }, false);
+
+</script>
+<script type="text/javascript">
+	$(document).ready(function(){
+			$("#thelist a").photoSwipe({ autoStartSlideshow: false, captionAndToolbarAutoHideDelay: 0, captionAndToolbarOpacity: 1 });					
+		});
+	</script>       
+<style type="text/css" media="all">
+body,ul,li {
+        padding:0;
+        margin:0;
+        border:0;
+}
+body {
+        font-size:12px;
+        -webkit-user-select:none;
+    -webkit-text-size-adjust:none;
+        font-family:helvetica;
+}
+#header {
+        position:absolute;
+        top:0; left:0;
+        width:100%;
+        height:45px;
+        line-height:45px;
+        background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0,#8e2198),color-stop(1,#3a033d));
+        padding:0;
+        color:#eee;
+        font-size:20px;
+        text-align:center;
+}
+#header a {
+        color:#f3f3f3;
+        text-decoration:none;
+        font-weight:bold;
+        text-shadow:0 -1px 0 rgba(0,0,0,0.5);
+}
+#wrapper {
+        position:absolute; z-index:1;
+        top:45px; bottom:0; left:0;
+        width:100%;
+        overflow:auto;
+        background:#FFFFFF;
+}
+#scroller {
+        width:800px;
+        float:left;
+        padding:0;
+}
+#scroller ul {
+        list-style:none;
+        display:block;
+        float:left;
+        width:100%;
+        height:100%;
+        padding:0;
+        margin:0;
+        border:1px solid #FFFFFF;
+}
+#scroller li {
+        display:block; float:left;
+        width:78px; height:78px; line-height:78px;
+        text-align:center;
+        border:1px solid #FFFFFF;
+        background:#FFFFFF;
+}
+.center {
+	text-align: center;
+}
+</style>
+  </head>
+  <body> 
+
+<div data-role="page" data-iscroll="enable" id="Gallery1" class="gallery-page" data-add-back-btn="true">
+<div data-role="header">
+<a href="home" rel="external" data-icon="home">Home</a>
+<h1>Galería Fotos</h1>
+</div>
+      <div data-role="content">
+<div data-iscroll="scroller">
+         <div id="wrapper">
+        <div id="scroller">
+            <ul id="thelist">
+<li><a href="images/A_E00_dettorremagda2.jpg" rel="external"><img src="images/A_E00_dettorremagda2.jpg" width="78" height="78" alt="Detalle de la Torre de la Magdalena"/></a></li>
+<li><a href="images/A_E00_dettorremagda3.jpg" rel="external"><img src="images/A_E00_dettorremagda3.jpg" width="78" height="78" alt="Detalle de la Torre de la Magdalena"/></a></li>
+<li><a href="images/A_E00_juderia1.jpg" rel="external"><img src="images/A_E00_juderia1.jpg" width="78" height="78" alt="Calle estrecha típica de la Judería de Tarazona"/></a></li>
+<li><a href="images/A_E00_magdanevada.jpg" rel="external"><img src="images/A_E00_magdanevada.jpg" width="78" height="78" alt="Torre de la Magdalena bajo la nieve"/></a></li>
+<li><a href="images/A_E00_tarazonasur1.jpg" rel="external"><img src="images/A_E00_tarazonasur1.jpg" width="78" height="78" alt="Vista de la catedral desde el barrio del Cinto"/></a></li>
+<li><a href="images/A_E00_torremagda1.jpg" rel="external"><img src="images/A_E00_torremagda1.jpg" width="78" height="78" alt="Torre de la Magdalena"/></a></li>
+<li><a href="images/A_E00_torremagda2.jpg" rel="external"><img src="images/A_E00_torremagda2.jpg" width="78" height="78" alt="Torre de la Magdalena"/></a></li>
+<li><a href="images/A_E00_torremagda3.jpg" rel="external"><img src="images/A_E00_torremagda3.jpg" width="78" height="78" alt="Torre de la Magdalena"/></a></li>
+<li><a href="images/A_E00_torremagdacalle.jpg" rel="external"><img src="images/A_E00_torremagdacalle.jpg" width="78" height="78" alt="Torre de la Magdalena desde las callejuelas de la Judería"/></a></li>
+<li><a href="images/A_E02_detcasascolgadas.jpg" rel="external"><img src="images/A_E02_detcasascolgadas.jpg" width="78" height="78" alt="Casas colgadas desde la calle Judería"/></a></li>
+<li><a href="images/A_E04_torremagdapalacio1.jpg" rel="external"><img src="images/A_E04_torremagdapalacio1.jpg" width="78" height="78" alt="Vista del Palacio Episcopal y la Magdalena desde el Queiles"/></a></li>
+<li><a href="images/A_E04_torremagdapalacio2.jpg" rel="external"><img src="images/A_E04_torremagdapalacio2.jpg" width="78" height="78" alt="Vista del Palacio Episcopal y la Magdalena desde el Queiles"/></a></li>
+<li><a href="images/A_E05_palacioepisc_sw.jpg" rel="external"><img src="images/A_E05_palacioepisc_sw.jpg" width="78" height="78" alt="Vista del lado sur y oeste del Palacio Episcopal"/></a></li>
+<li><a href="images/A_E05_fachadpalacioep1.jpg" rel="external"><img src="images/A_E05_fachadpalacioep1.jpg" width="78" height="78" alt="Palacio Episcopal: detalle derecho de la fachada principal"/></a></li>
+<li><a href="images/A_E05_fachadpalacioep2.jpg" rel="external"><img src="images/A_E05_fachadpalacioep2.jpg" width="78" height="78" alt="Palacio Episcopal: detalle derecho de la fachada principal"/></a></li>
+<li><a href="images/A_E05_fachadpalacioep3.jpg" rel="external"><img src="images/A_E05_fachadpalacioep3.jpg" width="78" height="78" alt="Palacio Episcopal: detalle derecho de la fachada principal"/></a></li>
+<li><a href="images/A_E05_fachadpalacioep4.jpg" rel="external"><img src="images/A_E05_fachadpalacioep4.jpg" width="78" height="78" alt="Palacio Episcopal: detalle derecho de la fachada principal"/></a></li>
+<li><a href="images/A_E06_ruabaja1.jpg" rel="external"><img src="images/A_E06_ruabaja1.jpg" width="78" height="78" alt="Palacio Episcopal: vista desde la Rúa Baja"/></a></li>
+<li><a href="images/A24_cimborrioext3.jpg" rel="external"><img src="images/A24_cimborrioext3.jpg" width="78" height="78" alt="Vista del Cimborrio desde la parte alta de la ciudad"/></a></li>
+<li><a href="images/A24_exteriorcated1.jpg" rel="external"><img src="images/A24_exteriorcated1.jpg" width="78" height="78" alt="Vista de la Catedral desde la parte alta de la ciudad"/></a></li>
+<li><a href="images/A24_exteriorcated2.jpg" rel="external"><img src="images/A24_exteriorcated2.jpg" width="78" height="78" alt="Vista de la Catedral desde la parte alta de la ciudad"/></a></li>
+<li><a href="images/A24_exteriorcated3.jpg" rel="external"><img src="images/A24_exteriorcated3.jpg" width="78" height="78" alt="Vista de la Catedral desde la parte alta de la ciudad"/></a></li>
+            </ul>
+</div>
+	</div>
+      </div>
+       </div>
+    </div>
+</body>
+</html>
