@@ -110,7 +110,80 @@ dl.image_map {display:block; width:629px; height:1116px; background:url(http://t
 	a.BLINK {display:block; width:202px; height:17px; overflow:hidden; position:absolute; font-size:0px;}
 	a.BLINK:hover  {background:black; border:1px dashed white; color:white; font-size:9px;}
 }
-
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) and (orientation:portrait){    
+    /* iPhone 5 only - portrait*/
+dl.image_map {display:block; width:629px; height:1116px; background:url(http://tarazonacat.businesscatalyst.com/images/iphone5_plano2.png); position:relative; margin:2px auto 2px auto;}
+	a.LINK0 {left:325px; top:107px; background:transparent;}
+	a.LINK0 {display:block; width:52px; height:0; padding-top:80px; overflow:hidden; position:absolute;}
+	a.LINK0:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK1 {left:325px; top:221px; background:transparent;}
+	a.LINK1 {display:block; width:52px; height:0; padding-top:80px; overflow:hidden; position:absolute;}
+	a.LINK1:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK2 {left:327px; top:352px; background:transparent;}
+	a.LINK2 {display:block; width:52px; height:0; padding-top:80px; overflow:hidden; position:absolute;}
+	a.LINK2:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK3 {left:323px; top:482px; background:transparent;}
+	a.LINK3 {display:block; width:52px; height:0; padding-top:80px; overflow:hidden; position:absolute;}
+	a.LINK3:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK4 {left:325px; top:613px; background:transparent;}
+	a.LINK4 {display:block; width:52px; height:0; padding-top:80px; overflow:hidden; position:absolute;}
+	a.LINK4:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK5 {left:323px; top:744px; background:transparent;}
+	a.LINK5 {display:block; width:52px; height:0; padding-top:80px; overflow:hidden; position:absolute;}
+	a.LINK5:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK6 {left:323px; top:870px; background:transparent;}
+	a.LINK6 {display:block; width:52px; height:0; padding-top:80px; overflow:hidden; position:absolute;}
+	a.LINK6:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK7 {left:218px; top:852px; background:transparent;}
+	a.LINK7 {display:block; width:52px; height:0; padding-top:80px; overflow:hidden; position:absolute;}
+	a.LINK7:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK8 {left:429px; top:112px; background:transparent;}
+	a.LINK8 {display:block; width:52px; height:0; padding-top:80px; overflow:hidden; position:absolute;}
+	a.LINK8:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK9 {left:511px; top:328px; background:transparent;}
+	a.LINK9 {display:block; width:52px; height:0; padding-top:80px; overflow:hidden; position:absolute;}
+	a.LINK9:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.BLINK {left:627px; top:1114px; background:transparent;}
+	a.BLINK {display:block; width:202px; height:17px; overflow:hidden; position:absolute; font-size:0px;}
+	a.BLINK:hover  {background:black; border:1px dashed white; color:white; font-size:9px;}
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) and (orientation:landscape){    
+    /* iPhone 5 only - landscape */
+dl.image_map {display:block; width:629px; height:1116px; background:url(http://tarazonacat.businesscatalyst.com/images/iphone5_plano2.png); position:relative; margin:2px auto 2px auto;}
+	a.LINK0 {left:325px; top:107px; background:transparent;}
+	a.LINK0 {display:block; width:52px; height:0; padding-top:80px; overflow:hidden; position:absolute;}
+	a.LINK0:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK1 {left:325px; top:221px; background:transparent;}
+	a.LINK1 {display:block; width:52px; height:0; padding-top:80px; overflow:hidden; position:absolute;}
+	a.LINK1:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK2 {left:327px; top:352px; background:transparent;}
+	a.LINK2 {display:block; width:52px; height:0; padding-top:80px; overflow:hidden; position:absolute;}
+	a.LINK2:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK3 {left:323px; top:482px; background:transparent;}
+	a.LINK3 {display:block; width:52px; height:0; padding-top:80px; overflow:hidden; position:absolute;}
+	a.LINK3:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK4 {left:325px; top:613px; background:transparent;}
+	a.LINK4 {display:block; width:52px; height:0; padding-top:80px; overflow:hidden; position:absolute;}
+	a.LINK4:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK5 {left:323px; top:744px; background:transparent;}
+	a.LINK5 {display:block; width:52px; height:0; padding-top:80px; overflow:hidden; position:absolute;}
+	a.LINK5:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK6 {left:323px; top:870px; background:transparent;}
+	a.LINK6 {display:block; width:52px; height:0; padding-top:80px; overflow:hidden; position:absolute;}
+	a.LINK6:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK7 {left:218px; top:852px; background:transparent;}
+	a.LINK7 {display:block; width:52px; height:0; padding-top:80px; overflow:hidden; position:absolute;}
+	a.LINK7:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK8 {left:429px; top:112px; background:transparent;}
+	a.LINK8 {display:block; width:52px; height:0; padding-top:80px; overflow:hidden; position:absolute;}
+	a.LINK8:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK9 {left:511px; top:328px; background:transparent;}
+	a.LINK9 {display:block; width:52px; height:0; padding-top:80px; overflow:hidden; position:absolute;}
+	a.LINK9:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.BLINK {left:627px; top:1114px; background:transparent;}
+	a.BLINK {display:block; width:202px; height:17px; overflow:hidden; position:absolute; font-size:0px;}
+	a.BLINK:hover  {background:black; border:1px dashed white; color:white; font-size:9px;}
+}
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3){
     /* iPhone retina only*/
 dl.image_map {display:block; width:640px; height:900px; background:url(http://tarazonacat.businesscatalyst.com/images/iphone4_plano2.png); position:relative; margin:2px auto 2px auto;}
@@ -148,10 +221,82 @@ dl.image_map {display:block; width:640px; height:900px; background:url(http://ta
 	a.BLINK {display:block; width:202px; height:17px; overflow:hidden; position:absolute; font-size:0px;}
 	a.BLINK:hover  {background:black; border:1px dashed white; color:white; font-size:9px;}	
 }
-
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) and (orientation:portrait){
+/* iPhone retina only - portrait */
+dl.image_map {display:block; width:640px; height:900px; background:url(http://tarazonacat.businesscatalyst.com/images/iphone4_plano2.png); position:relative; margin:2px auto 2px auto;}
+	a.LINK0 {left:333px; top:84px; background:transparent;}
+	a.LINK0 {display:block; width:52px; height:0; padding-top:75px; overflow:hidden; position:absolute;}
+	a.LINK0:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK1 {left:332px; top:180px; background:transparent;}
+	a.LINK1 {display:block; width:52px; height:0; padding-top:75px; overflow:hidden; position:absolute;}
+	a.LINK1:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK2 {left:331px; top:289px; background:transparent;}
+	a.LINK2 {display:block; width:52px; height:0; padding-top:75px; overflow:hidden; position:absolute;}
+	a.LINK2:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK3 {left:334px; top:398px; background:transparent;}
+	a.LINK3 {display:block; width:52px; height:0; padding-top:75px; overflow:hidden; position:absolute;}
+	a.LINK3:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK4 {left:328px; top:506px; background:transparent;}
+	a.LINK4 {display:block; width:52px; height:0; padding-top:75px; overflow:hidden; position:absolute;}
+	a.LINK4:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK5 {left:331px; top:612px; background:transparent;}
+	a.LINK5 {display:block; width:52px; height:0; padding-top:75px; overflow:hidden; position:absolute;}
+	a.LINK5:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK6 {left:329px; top:715px; background:transparent;}
+	a.LINK6 {display:block; width:52px; height:0; padding-top:75px; overflow:hidden; position:absolute;}
+	a.LINK6:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK7 {left:221px; top:703px; background:transparent;}
+	a.LINK7 {display:block; width:52px; height:0; padding-top:75px; overflow:hidden; position:absolute;}
+	a.LINK7:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK8 {left:434px; top:90px; background:transparent;}
+	a.LINK8 {display:block; width:52px; height:0; padding-top:75px; overflow:hidden; position:absolute;}
+	a.LINK8:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK9 {left:516px; top:267px; background:transparent;}
+	a.LINK9 {display:block; width:52px; height:0; padding-top:75px; overflow:hidden; position:absolute;}
+	a.LINK9:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.BLINK {left:638px; top:898px; background:transparent;}
+	a.BLINK {display:block; width:202px; height:17px; overflow:hidden; position:absolute; font-size:0px;}
+	a.BLINK:hover  {background:black; border:1px dashed white; color:white; font-size:9px;}	
+}
+@media only screen and (min-device-width: 320px)  and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) and (orientation:landscape){
+    /*iPhone retina only - landscape */
+dl.image_map {display:block; width:640px; height:900px; background:url(http://tarazonacat.businesscatalyst.com/images/iphone4_plano2.png); position:relative; margin:2px auto 2px auto;}
+	a.LINK0 {left:333px; top:84px; background:transparent;}
+	a.LINK0 {display:block; width:52px; height:0; padding-top:75px; overflow:hidden; position:absolute;}
+	a.LINK0:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK1 {left:332px; top:180px; background:transparent;}
+	a.LINK1 {display:block; width:52px; height:0; padding-top:75px; overflow:hidden; position:absolute;}
+	a.LINK1:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK2 {left:331px; top:289px; background:transparent;}
+	a.LINK2 {display:block; width:52px; height:0; padding-top:75px; overflow:hidden; position:absolute;}
+	a.LINK2:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK3 {left:334px; top:398px; background:transparent;}
+	a.LINK3 {display:block; width:52px; height:0; padding-top:75px; overflow:hidden; position:absolute;}
+	a.LINK3:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK4 {left:328px; top:506px; background:transparent;}
+	a.LINK4 {display:block; width:52px; height:0; padding-top:75px; overflow:hidden; position:absolute;}
+	a.LINK4:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK5 {left:331px; top:612px; background:transparent;}
+	a.LINK5 {display:block; width:52px; height:0; padding-top:75px; overflow:hidden; position:absolute;}
+	a.LINK5:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK6 {left:329px; top:715px; background:transparent;}
+	a.LINK6 {display:block; width:52px; height:0; padding-top:75px; overflow:hidden; position:absolute;}
+	a.LINK6:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK7 {left:221px; top:703px; background:transparent;}
+	a.LINK7 {display:block; width:52px; height:0; padding-top:75px; overflow:hidden; position:absolute;}
+	a.LINK7:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK8 {left:434px; top:90px; background:transparent;}
+	a.LINK8 {display:block; width:52px; height:0; padding-top:75px; overflow:hidden; position:absolute;}
+	a.LINK8:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK9 {left:516px; top:267px; background:transparent;}
+	a.LINK9 {display:block; width:52px; height:0; padding-top:75px; overflow:hidden; position:absolute;}
+	a.LINK9:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.BLINK {left:638px; top:898px; background:transparent;}
+	a.BLINK {display:block; width:202px; height:17px; overflow:hidden; position:absolute; font-size:0px;}
+	a.BLINK:hover  {background:black; border:1px dashed white; color:white; font-size:9px;}		
+}
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-    
 dl.image_map {display:block; width:320px; height:460px; background:url(http://tarazonacat.businesscatalyst.com/images/1x_plano2.png); position:relative; margin:2px auto 2px auto;}
 	a.LINK0 {left:152px; top:25px; background:transparent;}
 	a.LINK0 {display:block; width:52px; height:0; padding-top:52px; overflow:hidden; position:absolute;}
@@ -187,10 +332,156 @@ dl.image_map {display:block; width:320px; height:460px; background:url(http://ta
 	a.BLINK {display:block; width:202px; height:17px; overflow:hidden; position:absolute; font-size:0px;}
 	a.BLINK:hover  {background:black; border:1px dashed white; color:white; font-size:9px;}
 	}
-
-
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 321px) {
+dl.image_map {display:block; width:320px; height:460px; background:url(http://tarazonacat.businesscatalyst.com/images/1x_plano2.png); position:relative; margin:2px auto 2px auto;}
+	a.LINK0 {left:152px; top:25px; background:transparent;}
+	a.LINK0 {display:block; width:52px; height:0; padding-top:52px; overflow:hidden; position:absolute;}
+	a.LINK0:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK1 {left:152px; top:79px; background:transparent;}
+	a.LINK1 {display:block; width:52px; height:0; padding-top:52px; overflow:hidden; position:absolute;}
+	a.LINK1:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK2 {left:151px; top:133px; background:transparent;}
+	a.LINK2 {display:block; width:52px; height:0; padding-top:52px; overflow:hidden; position:absolute;}
+	a.LINK2:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK3 {left:151px; top:186px; background:transparent;}
+	a.LINK3 {display:block; width:52px; height:0; padding-top:52px; overflow:hidden; position:absolute;}
+	a.LINK3:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK4 {left:152px; top:238px; background:transparent;}
+	a.LINK4 {display:block; width:52px; height:0; padding-top:52px; overflow:hidden; position:absolute;}
+	a.LINK4:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK5 {left:152px; top:287px; background:transparent;}
+	a.LINK5 {display:block; width:52px; height:0; padding-top:52px; overflow:hidden; position:absolute;}
+	a.LINK5:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK6 {left:152px; top:342px; background:transparent;}
+	a.LINK6 {display:block; width:52px; height:0; padding-top:52px; overflow:hidden; position:absolute;}
+	a.LINK6:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK7 {left:95px; top:337px; background:transparent;}
+	a.LINK7 {display:block; width:52px; height:0; padding-top:52px; overflow:hidden; position:absolute;}
+	a.LINK7:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK8 {left:210px; top:34px; background:transparent;}
+	a.LINK8 {display:block; width:52px; height:0; padding-top:52px; overflow:hidden; position:absolute;}
+	a.LINK8:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK9 {left:246px; top:118px; background:transparent;}
+	a.LINK9 {display:block; width:52px; height:0; padding-top:52px; overflow:hidden; position:absolute;}
+	a.LINK9:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.BLINK {left:318px; top:458px; background:transparent;}
+	a.BLINK {display:block; width:202px; height:17px; overflow:hidden; position:absolute; font-size:0px;}
+	a.BLINK:hover  {background:black; border:1px dashed white; color:white; font-size:9px;}	
+}
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) {
+dl.image_map {display:block; width:320px; height:460px; background:url(http://tarazonacat.businesscatalyst.com/images/1x_plano2.png); position:relative; margin:2px auto 2px auto;}
+	a.LINK0 {left:152px; top:25px; background:transparent;}
+	a.LINK0 {display:block; width:52px; height:0; padding-top:52px; overflow:hidden; position:absolute;}
+	a.LINK0:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK1 {left:152px; top:79px; background:transparent;}
+	a.LINK1 {display:block; width:52px; height:0; padding-top:52px; overflow:hidden; position:absolute;}
+	a.LINK1:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK2 {left:151px; top:133px; background:transparent;}
+	a.LINK2 {display:block; width:52px; height:0; padding-top:52px; overflow:hidden; position:absolute;}
+	a.LINK2:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK3 {left:151px; top:186px; background:transparent;}
+	a.LINK3 {display:block; width:52px; height:0; padding-top:52px; overflow:hidden; position:absolute;}
+	a.LINK3:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK4 {left:152px; top:238px; background:transparent;}
+	a.LINK4 {display:block; width:52px; height:0; padding-top:52px; overflow:hidden; position:absolute;}
+	a.LINK4:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK5 {left:152px; top:287px; background:transparent;}
+	a.LINK5 {display:block; width:52px; height:0; padding-top:52px; overflow:hidden; position:absolute;}
+	a.LINK5:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK6 {left:152px; top:342px; background:transparent;}
+	a.LINK6 {display:block; width:52px; height:0; padding-top:52px; overflow:hidden; position:absolute;}
+	a.LINK6:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK7 {left:95px; top:337px; background:transparent;}
+	a.LINK7 {display:block; width:52px; height:0; padding-top:52px; overflow:hidden; position:absolute;}
+	a.LINK7:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK8 {left:210px; top:34px; background:transparent;}
+	a.LINK8 {display:block; width:52px; height:0; padding-top:52px; overflow:hidden; position:absolute;}
+	a.LINK8:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK9 {left:246px; top:118px; background:transparent;}
+	a.LINK9 {display:block; width:52px; height:0; padding-top:52px; overflow:hidden; position:absolute;}
+	a.LINK9:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.BLINK {left:318px; top:458px; background:transparent;}
+	a.BLINK {display:block; width:202px; height:17px; overflow:hidden; position:absolute; font-size:0px;}
+	a.BLINK:hover  {background:black; border:1px dashed white; color:white; font-size:9px;}
+}
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+dl.image_map {display:block; width:768px; height:1004px; background:url(http://tarazonacat.businesscatalyst.com/images/ipad_plano2.png); position:relative; margin:2px auto 2px auto;}
+	a.LINK0 {left:404px; top:83px; background:transparent;}
+	a.LINK0 {display:block; width:52px; height:0; padding-top:83px; overflow:hidden; position:absolute;}
+	a.LINK0:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK1 {left:402px; top:191px; background:transparent;}
+	a.LINK1 {display:block; width:52px; height:0; padding-top:83px; overflow:hidden; position:absolute;}
+	a.LINK1:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK2 {left:404px; top:311px; background:transparent;}
+	a.LINK2 {display:block; width:52px; height:0; padding-top:83px; overflow:hidden; position:absolute;}
+	a.LINK2:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK3 {left:404px; top:429px; background:transparent;}
+	a.LINK3 {display:block; width:52px; height:0; padding-top:83px; overflow:hidden; position:absolute;}
+	a.LINK3:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK4 {left:403px; top:550px; background:transparent;}
+	a.LINK4 {display:block; width:52px; height:0; padding-top:83px; overflow:hidden; position:absolute;}
+	a.LINK4:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK5 {left:402px; top:667px; background:transparent;}
+	a.LINK5 {display:block; width:52px; height:0; padding-top:83px; overflow:hidden; position:absolute;}
+	a.LINK5:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK6 {left:401px; top:784px; background:transparent;}
+	a.LINK6 {display:block; width:52px; height:0; padding-top:83px; overflow:hidden; position:absolute;}
+	a.LINK6:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK7 {left:274px; top:764px; background:transparent;}
+	a.LINK7 {display:block; width:52px; height:0; padding-top:83px; overflow:hidden; position:absolute;}
+	a.LINK7:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK8 {left:527px; top:92px; background:transparent;}
+	a.LINK8 {display:block; width:52px; height:0; padding-top:83px; overflow:hidden; position:absolute;}
+	a.LINK8:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK9 {left:625px; top:286px; background:transparent;}
+	a.LINK9 {display:block; width:52px; height:0; padding-top:83px; overflow:hidden; position:absolute;}
+	a.LINK9:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.BLINK {left:766px; top:1002px; background:transparent;}
+	a.BLINK {display:block; width:202px; height:17px; overflow:hidden; position:absolute; font-size:0px;}
+	a.BLINK:hover  {background:black; border:1px dashed white; color:white; font-size:9px;}
+}
+/* iPads (landscape) -----------*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation:landscape){
+dl.image_map {display:block; width:768px; height:1004px; background:url(http://tarazonacat.businesscatalyst.com/images/ipad_plano2.png); position:relative; margin:2px auto 2px auto;}
+	a.LINK0 {left:404px; top:83px; background:transparent;}
+	a.LINK0 {display:block; width:52px; height:0; padding-top:83px; overflow:hidden; position:absolute;}
+	a.LINK0:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK1 {left:402px; top:191px; background:transparent;}
+	a.LINK1 {display:block; width:52px; height:0; padding-top:83px; overflow:hidden; position:absolute;}
+	a.LINK1:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK2 {left:404px; top:311px; background:transparent;}
+	a.LINK2 {display:block; width:52px; height:0; padding-top:83px; overflow:hidden; position:absolute;}
+	a.LINK2:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK3 {left:404px; top:429px; background:transparent;}
+	a.LINK3 {display:block; width:52px; height:0; padding-top:83px; overflow:hidden; position:absolute;}
+	a.LINK3:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK4 {left:403px; top:550px; background:transparent;}
+	a.LINK4 {display:block; width:52px; height:0; padding-top:83px; overflow:hidden; position:absolute;}
+	a.LINK4:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK5 {left:402px; top:667px; background:transparent;}
+	a.LINK5 {display:block; width:52px; height:0; padding-top:83px; overflow:hidden; position:absolute;}
+	a.LINK5:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK6 {left:401px; top:784px; background:transparent;}
+	a.LINK6 {display:block; width:52px; height:0; padding-top:83px; overflow:hidden; position:absolute;}
+	a.LINK6:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK7 {left:274px; top:764px; background:transparent;}
+	a.LINK7 {display:block; width:52px; height:0; padding-top:83px; overflow:hidden; position:absolute;}
+	a.LINK7:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK8 {left:527px; top:92px; background:transparent;}
+	a.LINK8 {display:block; width:52px; height:0; padding-top:83px; overflow:hidden; position:absolute;}
+	a.LINK8:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.LINK9 {left:625px; top:286px; background:transparent;}
+	a.LINK9 {display:block; width:52px; height:0; padding-top:83px; overflow:hidden; position:absolute;}
+	a.LINK9:hover  {background:transparent; border:1px dashed black; color:black;}
+	a.BLINK {left:766px; top:1002px; background:transparent;}
+	a.BLINK {display:block; width:202px; height:17px; overflow:hidden; position:absolute; font-size:0px;}
+	a.BLINK:hover  {background:black; border:1px dashed white; color:white; font-size:9px;}
+}
+/* iPads (portrait) -----------*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation:portrait){
 dl.image_map {display:block; width:768px; height:1004px; background:url(http://tarazonacat.businesscatalyst.com/images/ipad_plano2.png); position:relative; margin:2px auto 2px auto;}
 	a.LINK0 {left:404px; top:83px; background:transparent;}
 	a.LINK0 {display:block; width:52px; height:0; padding-top:83px; overflow:hidden; position:absolute;}

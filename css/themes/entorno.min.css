@@ -235,7 +235,6 @@ dl.image_map {display:block; width:320px; height:460px; background:url(http://ta
 }
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width: 320px) {
-
 dl.image_map {display:block; width:320px; height:460px; background:url(http://tarazonacat.businesscatalyst.com/images/entorno@1x.png); position:relative; margin:2px auto 2px auto;}
 	a.LINK0 {left:79px; top:103px; background:transparent;}
 	a.LINK0 {display:block; width:52px; height:0; padding-top:52px; overflow:hidden; position:absolute;}
