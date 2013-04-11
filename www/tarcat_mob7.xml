@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- for xml compliance -->
+<krpano version="1.0.8.14" logkey="false">
+    <action name="mainloadpano">
+		closepanoobjects();
+		ifnot(stopSequence === undefined,interruptAnimation(););
+		loadpano(%1,NULL,NULL,BLEND(1));
+	</action>
+    <action name="closepanoobjects">
+	</action>
+	<plugin name="data" keep="true"/>
+	<autorotate enabled="false"/>
+	<textstyle name="DEFAULT" bold="false" font="Arial" fontsize="16" italic="false" textcolor="0xff000000"/>
+
+    <!--************** Panorama *******************************************************************-->
+    <!-- @File="tarcat_mob7.xml" @PanoName="Exposición: Entrada" @FilePath="X:/PANOS/0011_TARAZONA/visita/Catedral/CatedralTarazona_29_expo1_FOV360x180_7500.jpg" -->
+    <panoview h="0" v="0" fov="90"/>
+    <!-- parámetros de visualización -->
+    <view fisheye="0" limitview="range" hlookatmin="-180" hlookatmax="180" vlookatmin="-90" vlookatmax="90" fovmin="90" fovmax="90" fov="90" hlookat="0" vlookat="0"/>
+    <autorotate horizon="0" tofov="90" waittime="1" speed="5"/>
+    <!-- vista previa -->
+    <preview url="tarcat_mobdata/tarcat_mob7/preview.jpg" type="CUBESTRIP" striporder="FRBLUD" details="16"/>
+    <!-- el panorama mismo -->
+    <image type="CUBE" multires="true" tilesize="600" baseindex="0">
+	    <!-- android images -->
+        <level tiledimagewidth="600" tiledimageheight="600">
+            <left url="tarcat_mobdata/tarcat_mob7/3/mobile_face.jpg"/>
+            <front url="tarcat_mobdata/tarcat_mob7/0/mobile_face.jpg"/>
+            <right url="tarcat_mobdata/tarcat_mob7/1/mobile_face.jpg"/>
+            <back url="tarcat_mobdata/tarcat_mob7/2/mobile_face.jpg"/>
+            <up url="tarcat_mobdata/tarcat_mob7/4/mobile_face.jpg"/>
+            <down url="tarcat_mobdata/tarcat_mob7/5/mobile_face.jpg"/>
+        </level>
+        <!-- mobile phone / iphone images -->
+        <mobile>
+            <left url="tarcat_mobdata/tarcat_mob7/3/mobile_face.jpg"/>
+            <front url="tarcat_mobdata/tarcat_mob7/0/mobile_face.jpg"/>
+            <right url="tarcat_mobdata/tarcat_mob7/1/mobile_face.jpg"/>
+            <back url="tarcat_mobdata/tarcat_mob7/2/mobile_face.jpg"/>
+            <up url="tarcat_mobdata/tarcat_mob7/4/mobile_face.jpg"/>
+            <down url="tarcat_mobdata/tarcat_mob7/5/mobile_face.jpg"/>
+        </mobile>
+        <!-- tablet pc / ipad images -->
+        <tablet>
+            <left url="tarcat_mobdata/tarcat_mob7/3/mobile_face.jpg"/>
+            <front url="tarcat_mobdata/tarcat_mob7/0/mobile_face.jpg"/>
+            <right url="tarcat_mobdata/tarcat_mob7/1/mobile_face.jpg"/>
+            <back url="tarcat_mobdata/tarcat_mob7/2/mobile_face.jpg"/>
+            <up url="tarcat_mobdata/tarcat_mob7/4/mobile_face.jpg"/>
+            <down url="tarcat_mobdata/tarcat_mob7/5/mobile_face.jpg"/>
+        </tablet>
+    </image>
+    <!--************** Puntos clave y reflexiones *************************************************-->
+    <hotspot name="spot30" onclick="mainloadpano(tarcat_mob1.xml);" url="tarcat_mobdata/graphics/spots/spot0.png" onhover="showtext(Acceso a la catedral);" ath="19.3958" atv="23.3068"/>
+    <hotspot name="spot31" onclick="mainloadpano(tarcat_mob15.xml);" url="tarcat_mobdata/graphics/spots/spot0.png" onhover="showtext(Espacio expositivo Neocimborrio);" ath="129.754" atv="15.1429"/>
+    <hotspot name="spot32" handcursor="false" url="tarcat_mobdata/graphics/spots/spot0.png" onhover="showtext(Entrada);" ath="93.2117" atv="12.2857"/>
+    <hotspot name="spot33" onclick="mainloadpano(tarcat_mob12.xml);" url="tarcat_mobdata/graphics/spots/spot1.png" onhover="showtext(Exposición Reencuentros con la catedral);" ath="-98.065" atv="23.7143"/>
+    <action name="hidepanospotsaction">
+		set(hotspot[spot30].visible, false);
+		set(hotspot[spot31].visible, false);
+		set(hotspot[spot32].visible, false);
+		set(hotspot[spot33].visible, false);
+	</action>
+    <action name="showpanospotsaction">
+		set(hotspot[spot30].visible, true);
+		set(hotspot[spot31].visible, true);
+		set(hotspot[spot32].visible, true);
+		set(hotspot[spot33].visible, true);
+	</action>
+    <!-- cerrar todos los puntos clave -->
+</krpano>

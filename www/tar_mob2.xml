@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- for xml compliance -->
+<krpano version="1.0.8.14" logkey="false">
+    <action name="mainloadpano">
+		closepanoobjects();
+		ifnot(stopSequence === undefined,interruptAnimation(););
+		loadpano(%1,NULL,NULL,BLEND(1));
+	</action>
+    <action name="closepanoobjects">
+	</action>
+	<plugin name="data" keep="true"/>
+	<autorotate enabled="false"/>
+	<textstyle name="DEFAULT" bold="false" font="Arial" fontsize="16" italic="false" textcolor="0xff000000"/>
+    <!--************** Panorama *******************************************************************-->
+    <!-- @File="tar_mob2.xml" @PanoName="Juderia Casascolgadas" @FilePath="X:/PANOS/0011_TARAZONA/visita/Tarazona/Tarazona_02_Juderia_Casascolgadas_FOV360x180_10000.jpg" -->
+    <panoview h="15.31" v="-54.29" fov="81.82"/>
+    <!-- parámetros de visualización -->
+    <view fisheye="0" limitview="range" hlookatmin="-180" hlookatmax="180" vlookatmin="-90" vlookatmax="90" maxpixelzoom="1.0" fovmax="90" fov="81.82" hlookat="15.31" vlookat="-54.29"/>
+    <autorotate horizon="-54.29" tofov="81.82" waittime="1" speed="5"/>
+    <!-- vista previa -->
+    <preview url="tar_mobdata/tar_mob2/preview.jpg" type="CUBESTRIP" striporder="FRBLUD" details="16"/>
+    <!-- el panorama mismo -->
+    <image type="CUBE" multires="true" tilesize="600" baseindex="0">
+	    <!-- android images -->
+        <level tiledimagewidth="600" tiledimageheight="600">
+            <left url="tar_mobdata/tar_mob2/3/mobile_face.jpg"/>
+            <front url="tar_mobdata/tar_mob2/0/mobile_face.jpg"/>
+            <right url="tar_mobdata/tar_mob2/1/mobile_face.jpg"/>
+            <back url="tar_mobdata/tar_mob2/2/mobile_face.jpg"/>
+            <up url="tar_mobdata/tar_mob2/4/mobile_face.jpg"/>
+            <down url="tar_mobdata/tar_mob2/5/mobile_face.jpg"/>
+        </level>
+        <!-- mobile phone / iphone images -->
+        <mobile>
+            <left url="tar_mobdata/tar_mob2/3/mobile_face.jpg"/>
+            <front url="tar_mobdata/tar_mob2/0/mobile_face.jpg"/>
+            <right url="tar_mobdata/tar_mob2/1/mobile_face.jpg"/>
+            <back url="tar_mobdata/tar_mob2/2/mobile_face.jpg"/>
+            <up url="tar_mobdata/tar_mob2/4/mobile_face.jpg"/>
+            <down url="tar_mobdata/tar_mob2/5/mobile_face.jpg"/>
+        </mobile>
+        <!-- tablet pc / ipad images -->
+        <tablet>
+            <left url="tar_mobdata/tar_mob2/3/mobile_face.jpg"/>
+            <front url="tar_mobdata/tar_mob2/0/mobile_face.jpg"/>
+            <right url="tar_mobdata/tar_mob2/1/mobile_face.jpg"/>
+            <back url="tar_mobdata/tar_mob2/2/mobile_face.jpg"/>
+            <up url="tar_mobdata/tar_mob2/4/mobile_face.jpg"/>
+            <down url="tar_mobdata/tar_mob2/5/mobile_face.jpg"/>
+        </tablet>
+    </image>
+    <!--************** Puntos clave y reflexiones *************************************************-->
+    <hotspot name="spot6" onclick="mainloadpano(tar_mob3.xml);" url="tar_mobdata/graphics/spots/spot3.png" ath="-76.4029" atv="13.2277"/>
+    <hotspot name="spot7" onclick="mainloadpano(tar_mob1.xml);" url="tar_mobdata/graphics/spots/spot4.png" ath="121.986" atv="15.8213"/>
+    <action name="hidepanospotsaction">
+		set(hotspot[spot6].visible, false);
+		set(hotspot[spot7].visible, false);
+	</action>
+    <action name="showpanospotsaction">
+		set(hotspot[spot6].visible, true);
+		set(hotspot[spot7].visible, true);
+	</action>
+    <!-- cerrar todos los puntos clave -->
+</krpano>
