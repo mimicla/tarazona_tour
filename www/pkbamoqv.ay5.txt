@@ -1,0 +1,36 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	modified:   A01.htm
+#	modified:   A02.htm
+#	modified:   A03.htm
+#	modified:   A04.htm
+#	modified:   A05.htm
+#	modified:   A06.htm
+#	modified:   A07.htm
+#	modified:   A08.htm
+#	modified:   A21.htm
+#	modified:   A22.htm
+#	modified:   A23a.htm
+#	modified:   A23b.htm
+#	modified:   A23c.htm
+#	modified:   A23d.htm
+#	modified:   A23e.htm
+#	modified:   A23f.htm
+#	modified:   A23g.htm
+#	modified:   A23h.htm
+#	modified:   E01.htm
+#	modified:   E02.htm
+#	modified:   E03.htm
+#	modified:   E04.htm
+#	modified:   E05.htm
+#	modified:   E06.htm
+#	new file:   krpanoavl.js
+#	new file:   krpanoavl.swf
+#	new file:   swfkrpano.js
+#
+
