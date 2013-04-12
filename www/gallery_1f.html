@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Catedral de Tarazona</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="HandheldFriendly" content="true">
+<meta name="MobileOptimized" content="width">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="images/icons/Icon-Small.ico">
+<link rel="shortcut icon" href="images/icons/Icon-Small.png">
+<link rel="apple-touch-icon" href="images/icons/icon.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="images/icons/icon-72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="images/icons/icon@2x.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="images/icons/icon-72@2x.png" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="description" content="Tarazona Cathedral is situated in Tarazona, Zaragoza province, Spain. Its architecture is representative of the Gothic and Mudéjar style, and is one of the few remaining examples of this type of architecture, along with Teruel Cathedral. La Catedral de Nuestra Señora de la Huerta de Tarazona (provincia de Zaragoza), de planta gótica clásica, es una de las construcciones más características del mudéjar en España, y una de las escasas catedrales edificadas en este estilo arquitectónico, junto con la de Teruel." />  
+<meta name="keywords" content="tarazona, catedral, monasterio, zaragoza, tour, gotico, mudejar, arquitectura, España, cathedral, architecture, Gothic, Mudéjar, Spain, Catedral de Nuestra Señora de la Huerta, Católico, Renacentista" />
+<!-- jQuery Mobile Recent Stable Versions-->
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+<!--scroll vertical and horizontal-->
+    <script src="http://cubiq.org/dropbox/iscroll/iscroll.js?v3.7.1"></script>
+    <script src="js/iscroll.js"></script>
+<!--photoswipe gallery-->
+<link rel="stylesheet" href="css/themes/photoswipe.css" />
+<script type="text/javascript" src="js/klass.min.js"></script>
+<script type="text/javascript" src="js/code.photoswipe.jquery-3.0.5.min.js"></script>
+<!--Tarazona Tour colors jquery mobile css-->
+<link rel="stylesheet" href="css/themes/Tarazona.min.css" />     
+<script type="text/javascript">
+var myScroll;
+function loaded() {
+        myScroll = new iScroll('wrapper', {
+                snap: 'li',
+                momentum: false,
+                hScrollbar: false,
+                vScrollbar: false,
+                zoom: true
+         });
+}
+document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+
+/* * * * * * * *
+ *
+ * Use this for high compatibility (iDevice + Android)
+ *
+ */
+document.addEventListener('DOMContentLoaded', function () { setTimeout(loaded, 200); }, false);
+
+</script>
+<script type="text/javascript">
+	$(document).ready(function(){
+			$("#thelist a").photoSwipe({ autoStartSlideshow: false, captionAndToolbarAutoHideDelay: 0, captionAndToolbarOpacity: 1 });					
+		});
+	</script>       
+<style type="text/css" media="all">
+body,ul,li {
+        padding:0;
+        margin:0;
+        border:0;
+}
+body {
+        font-size:12px;
+        -webkit-user-select:none;
+    -webkit-text-size-adjust:none;
+        font-family:helvetica;
+}
+#header {
+        position:absolute;
+        top:0; left:0;
+        width:100%;
+        height:45px;
+        line-height:45px;
+        background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0,#8e2198),color-stop(1,#3a033d));
+        padding:0;
+        color:#eee;
+        font-size:20px;
+        text-align:center;
+}
+#header a {
+        color:#f3f3f3;
+        text-decoration:none;
+        font-weight:bold;
+        text-shadow:0 -1px 0 rgba(0,0,0,0.5);
+}
+#wrapper {
+        position:absolute; z-index:1;
+        top:45px; bottom:0; left:0;
+        width:100%;
+        overflow:auto;
+        background:#FFFFFF;
+}
+#scroller {
+        width:800px;
+        float:left;
+        padding:0;
+}
+#scroller ul {
+        list-style:none;
+        display:block;
+        float:left;
+        width:100%;
+        height:100%;
+        padding:0;
+        margin:0;
+        border:1px solid #FFFFFF;
+}
+#scroller li {
+        display:block; float:left;
+        width:78px; height:78px; line-height:78px;
+        text-align:center;
+        border:1px solid #FFFFFF;
+        background:#FFFFFF;
+}
+.center {
+	text-align: center;
+}
+</style>
+  </head>
+  <body> 
+<div data-role="page" data-iscroll="enable" id="Gallery1f" class="gallery-page" data-add-back-btn="true">
+<div data-role="header">
+<a href="gallery_home.html#gallery_cat" rel="external" data-icon="grid">Galeria</a>
+    <h1>Capilla de San Pedro y San Pablo</h1>
+</div>
+      <div data-role="content">
+<div data-iscroll="scroller">
+         <div id="wrapper">
+        <div id="scroller">
+            <ul id="thelist">
+<li><a href="images/A17_P18_sepulcrodcha2.jpg" rel="external"><img src="images/A17_P18_sepulcrodcha2.jpg" width="78" height="78" alt="Sepulcro de alabastro del deán D. Miguel de Erla y Añón (+1550)"/></a></li>
+<li><a href="images/A17_P18_sepulcroizda1.jpg" rel="external"><img src="images/A17_P18_sepulcroizda1.jpg" width="78" height="78" alt="Sepulcro del deán D.Pedro Pérez de Añón (+1542)"/></a></li>
+            </ul>
+</div>
+	</div>
+      </div>
+       </div>
+    </div>
+</body>
+</html>
