@@ -42,7 +42,16 @@ var addToHomeConfig = {
 <link rel="stylesheet" href="css/themes/add2home.css">
 <script type="application/javascript" src="js/add2home.js" charset="utf-8"></script>
 <script type="text/javascript">
-document.addEventListener("deviceready", onDeviceReady, false);
+function onDeviceReady() { 
+    alert("Device Ready!"); 
+} 
+$(document).ready(function() { 
+    alert("doc ready!"); 
+    $.getScript("phonegap.js", function() {
+        alert("Got Phonegap!");
+        document.addEventListener("deviceready", onDeviceReady, false);
+    });
+});
 </script>
 </head> 
 <body>     
