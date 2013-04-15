@@ -16,22 +16,25 @@
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="description" content="Tarazona Cathedral is situated in Tarazona, Zaragoza province, Spain. Its architecture is representative of the Gothic and Mudéjar style, and is one of the few remaining examples of this type of architecture, along with Teruel Cathedral. La Catedral de Nuestra Señora de la Huerta de Tarazona (provincia de Zaragoza), de planta gótica clásica, es una de las construcciones más características del mudéjar en España, y una de las escasas catedrales edificadas en este estilo arquitectónico, junto con la de Teruel." />  
-<meta name="keywords" content="tarazona, catedral, monasterio, zaragoza, tour, gotico, mudejar, arquitectura, España, cathedral, architecture, Gothic, Mudéjar, Spain, Catedral de Nuestra Señora de la Huerta, Católico, Renacentista" /><script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
+<meta name="keywords" content="tarazona, catedral, monasterio, zaragoza, tour, gotico, mudejar, arquitectura, España, cathedral, architecture, Gothic, Mudéjar, Spain, Catedral de Nuestra Señora de la Huerta, Católico, Renacentista" />
+<script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
 <script type="text/javascript" charset="utf-8" src="childbrowser.js"></script>
 <script type="text/javascript" charset="utf-8" src="GAPlugin.js"></script>
 <!-- jQuery Mobile Recent Stable Versions-->
-<link rel="stylesheet" href="css/themes/jquery.mobile-1.2.0.min.css" />
-<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
-<script type="text/javascript" src="js/jquery.mobile-1.2.0.min.js"></script>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
 <!--scroll vertical and horizontal-->
-    <script type="text/javascript" src="iscroll.js"></script>
-    <script type="text/javascript" src="js/iscroll.js"></script>
+    <script src="http://cubiq.org/dropbox/iscroll/iscroll.js?v3.7.1"></script>
+    <script src="js/iscroll.js"></script>
 <!--photoswipe gallery-->
 <link rel="stylesheet" href="css/themes/photoswipe.css" />
 <script type="text/javascript" src="js/klass.min.js"></script>
 <script type="text/javascript" src="js/code.photoswipe.jquery-3.0.5.min.js"></script>
+
 <!--Tarazona Tour colors jquery mobile css-->
-<link rel="stylesheet" href="css/themes/Tarazona.min.css" />     
+<link rel="stylesheet" href="http://tarazonacat.businesscatalyst.com/css/themes/Tarazona.min.css" /> 
+    
 <script type="text/javascript">
 var myScroll;
 function loaded() {
@@ -44,12 +47,14 @@ function loaded() {
          });
 }
 document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+
 /* * * * * * * *
  *
  * Use this for high compatibility (iDevice + Android)
  *
  */
 document.addEventListener('DOMContentLoaded', function () { setTimeout(loaded, 200); }, false);
+
 </script>
 <script type="text/javascript">
 	$(document).ready(function(){
@@ -117,15 +122,15 @@ body {
 }
 .center {
 	text-align: center;
-}  
+}
+  
 </style>
-  <script type="text/javascript">
-document.addEventListener("deviceready", onDeviceReady, false);
-</script>
-</head>
+  </head>
   <body> 
+
+
 <div data-role="page" data-iscroll="enable" id="Gallery1a" class="gallery-page" data-add-back-btn="true">
-<div data-role="header" data-theme="a" data-position="fixed">
+<div data-role="header">
 <a href="gallery_home.html#gallery_cat" rel="external" data-icon="grid">Galeria</a>
 <h1>Capilla mayor</h1>
 </div>
@@ -164,3 +169,4 @@ document.addEventListener("deviceready", onDeviceReady, false);
     </div>
 </body>
 </html>
+
