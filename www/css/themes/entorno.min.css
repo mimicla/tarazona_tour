@@ -34,7 +34,7 @@
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71){    
     /* iPhone 5 only */
-dl.image_map {display:block; width:640px; height:1136px; background:url(http://tarazonacat.businesscatalyst.com/images/entorno_iphone5@2x.png); position:relative; margin:2px auto 2px auto;}
+dl.image_map {display:block; width:640px; height:1136px; background:url(../../images/entorno_iphone5@2x.png); position:relative; margin:2px auto 2px auto;}
 	a.LINK0 {left:188px; top:331px; background:transparent;}
 	a.LINK0 {display:block; width:52px; height:0; padding-top:76px; overflow:hidden; position:absolute;}
 	a.LINK0:hover  {background:transparent; border:1px dashed black; color:black;}
@@ -59,7 +59,7 @@ dl.image_map {display:block; width:640px; height:1136px; background:url(http://t
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) and (orientation:portrait){    
     /* iPhone 5 only - portrait*/
-dl.image_map {display:block; width:640px; height:1136px; background:url(http://tarazonacat.businesscatalyst.com/images/entorno_iphone5@2x.png); position:relative; margin:2px auto 2px auto;}
+dl.image_map {display:block; width:640px; height:1136px; background:url(../../images/entorno_iphone5@2x.png); position:relative; margin:2px auto 2px auto;}
 	a.LINK0 {left:188px; top:331px; background:transparent;}
 	a.LINK0 {display:block; width:52px; height:0; padding-top:76px; overflow:hidden; position:absolute;}
 	a.LINK0:hover  {background:transparent; border:1px dashed black; color:black;}
@@ -85,7 +85,7 @@ dl.image_map {display:block; width:640px; height:1136px; background:url(http://t
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) and (orientation:landscape){    
     /* iPhone 5 only - landscape */
-dl.image_map {display:block; width:640px; height:1136px; background:url(http://tarazonacat.businesscatalyst.com/images/entorno_iphone5@2x.png); position:relative; margin:2px auto 2px auto;}
+dl.image_map {display:block; width:640px; height:1136px; background:url(../../images/entorno_iphone5@2x.png); position:relative; margin:2px auto 2px auto;}
 	a.LINK0 {left:188px; top:331px; background:transparent;}
 	a.LINK0 {display:block; width:52px; height:0; padding-top:76px; overflow:hidden; position:absolute;}
 	a.LINK0:hover  {background:transparent; border:1px dashed black; color:black;}
@@ -110,7 +110,7 @@ dl.image_map {display:block; width:640px; height:1136px; background:url(http://t
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3){
     /* iPhone retina only*/
-dl.image_map {display:block; width:640px; height:920px; background:url(http://tarazonacat.businesscatalyst.com/images/entorno_iphone4@2x.png); position:relative; margin:2px auto 2px auto;}
+dl.image_map {display:block; width:640px; height:920px; background:url(../../images/entorno_iphone4@2x.png); position:relative; margin:2px auto 2px auto;}
 	a.LINK0 {left:193px; top:225px; background:transparent;}
 	a.LINK0 {display:block; width:52px; height:0; padding-top:76px; overflow:hidden; position:absolute;}
 	a.LINK0:hover  {background:transparent; border:1px dashed black; color:black;}
@@ -135,7 +135,7 @@ dl.image_map {display:block; width:640px; height:920px; background:url(http://ta
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) and (orientation:portrait){
 /* iPhone retina only - portrait */
-dl.image_map {display:block; width:640px; height:920px; background:url(http://tarazonacat.businesscatalyst.com/images/entorno_iphone4@2x.png); position:relative; margin:2px auto 2px auto;}
+dl.image_map {display:block; width:640px; height:920px; background:url(../../images/entorno_iphone4@2x.png); position:relative; margin:2px auto 2px auto;}
 	a.LINK0 {left:193px; top:225px; background:transparent;}
 	a.LINK0 {display:block; width:52px; height:0; padding-top:76px; overflow:hidden; position:absolute;}
 	a.LINK0:hover  {background:transparent; border:1px dashed black; color:black;}
@@ -160,7 +160,7 @@ dl.image_map {display:block; width:640px; height:920px; background:url(http://ta
 }
 @media only screen and (min-device-width: 320px)  and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) and (orientation:landscape){
     /*iPhone retina only - landscape */
-dl.image_map {display:block; width:640px; height:920px; background:url(http://tarazonacat.businesscatalyst.com/images/entorno_iphone4@2x.png); position:relative; margin:2px auto 2px auto;}
+dl.image_map {display:block; width:640px; height:920px; background:url(../../images/entorno_iphone4@2x.png); position:relative; margin:2px auto 2px auto;}
 	a.LINK0 {left:193px; top:225px; background:transparent;}
 	a.LINK0 {display:block; width:52px; height:0; padding-top:76px; overflow:hidden; position:absolute;}
 	a.LINK0:hover  {background:transparent; border:1px dashed black; color:black;}
@@ -185,7 +185,7 @@ dl.image_map {display:block; width:640px; height:920px; background:url(http://ta
 }
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-dl.image_map {display:block; width:320px; height:460px; background:url(http://tarazonacat.businesscatalyst.com/images/entorno@1x.png); position:relative; margin:2px auto 2px auto;}
+dl.image_map {display:block; width:320px; height:460px; background:url(../../images/entorno@1x.png); position:relative; margin:2px auto 2px auto;}
 	a.LINK0 {left:79px; top:103px; background:transparent;}
 	a.LINK0 {display:block; width:52px; height:0; padding-top:52px; overflow:hidden; position:absolute;}
 	a.LINK0:hover  {background:transparent; border:1px dashed black; color:black;}
@@ -210,7 +210,7 @@ dl.image_map {display:block; width:320px; height:460px; background:url(http://ta
 }
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width: 321px) {
-dl.image_map {display:block; width:320px; height:460px; background:url(http://tarazonacat.businesscatalyst.com/images/entorno@1x.png); position:relative; margin:2px auto 2px auto;}
+dl.image_map {display:block; width:320px; height:460px; background:url(../../images/entorno@1x.png); position:relative; margin:2px auto 2px auto;}
 	a.LINK0 {left:79px; top:103px; background:transparent;}
 	a.LINK0 {display:block; width:52px; height:0; padding-top:52px; overflow:hidden; position:absolute;}
 	a.LINK0:hover  {background:transparent; border:1px dashed black; color:black;}
@@ -235,7 +235,7 @@ dl.image_map {display:block; width:320px; height:460px; background:url(http://ta
 }
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width: 320px) {
-dl.image_map {display:block; width:320px; height:460px; background:url(http://tarazonacat.businesscatalyst.com/images/entorno@1x.png); position:relative; margin:2px auto 2px auto;}
+dl.image_map {display:block; width:320px; height:460px; background:url(../../images/entorno@1x.png); position:relative; margin:2px auto 2px auto;}
 	a.LINK0 {left:79px; top:103px; background:transparent;}
 	a.LINK0 {display:block; width:52px; height:0; padding-top:52px; overflow:hidden; position:absolute;}
 	a.LINK0:hover  {background:transparent; border:1px dashed black; color:black;}
@@ -261,7 +261,7 @@ dl.image_map {display:block; width:320px; height:460px; background:url(http://ta
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
-dl.image_map {display:block; width:768px; height:1004px; background:url(http://tarazonacat.businesscatalyst.com/images/entorno_ipad_portrait@2x.png); position:relative; margin:2px auto 2px auto;}
+dl.image_map {display:block; width:768px; height:1004px; background:url(../../images/entorno_ipad_portrait@2x.png); position:relative; margin:2px auto 2px auto;}
 	a.LINK0 {left:333px; top:269px; background:transparent;}
 	a.LINK0 {display:block; width:52px; height:0; padding-top:81px; overflow:hidden; position:absolute;}
 	a.LINK0:hover  {background:transparent; border:1px dashed black; color:black;}
@@ -286,7 +286,7 @@ dl.image_map {display:block; width:768px; height:1004px; background:url(http://t
 }
 /* iPads (landscape) -----------*/
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation:landscape){
-dl.image_map {display:block; width:1004px; height:768px; background:url(http://tarazonacat.businesscatalyst.com/images/entorno_ipad_landscape@2x.png); position:relative; margin:2px auto 2px auto;}
+dl.image_map {display:block; width:1004px; height:768px; background:url(../../images/entorno_ipad_landscape@2x.png); position:relative; margin:2px auto 2px auto;}
 	a.LINK0 {left:491px; top:140px; background:transparent;}
 	a.LINK0 {display:block; width:52px; height:0; padding-top:81px; overflow:hidden; position:absolute;}
 	a.LINK0:hover  {background:transparent; border:1px dashed black; color:black;}
@@ -311,7 +311,7 @@ dl.image_map {display:block; width:1004px; height:768px; background:url(http://t
 }
 /* iPads (portrait) -----------*/
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation:portrait){
-	dl.image_map {display:block; width:768px; height:1004px; background:url(http://tarazonacat.businesscatalyst.com/images/entorno_ipad_portrait@2x.png); position:relative; margin:2px auto 2px auto;}
+	dl.image_map {display:block; width:768px; height:1004px; background:url(../../images/entorno_ipad_portrait@2x.png); position:relative; margin:2px auto 2px auto;}
 	a.LINK0 {left:333px; top:269px; background:transparent;}
 	a.LINK0 {display:block; width:52px; height:0; padding-top:81px; overflow:hidden; position:absolute;}
 	a.LINK0:hover  {background:transparent; border:1px dashed black; color:black;}

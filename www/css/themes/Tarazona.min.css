@@ -41,7 +41,7 @@ background:url(../../images/home_iphone5@2x.png) no-repeat fixed;
 -o-background-size: cover;
 background-size: cover;   
 }
-dl.image_map {display:block; width:629px; height:1116px; background:url(http://tarazonacat.businesscatalyst.com/images/iphone5_plano.png); position:relative; margin:2px auto 2px auto;}
+dl.image_map {display:block; width:629px; height:1116px; background:url(../../images/iphone5_plano.png); position:relative; margin:2px auto 2px auto;}
 	a.LINK0 {left:251px; top:42px; background:transparent;}
 	a.LINK0 {display:block; width:52px; height:0; padding-top:92px; overflow:hidden; position:absolute;}
 	a.LINK0:hover  {background:transparent; border:1px dashed black; color:black;}
@@ -124,7 +124,7 @@ background:url(../../images/home_iphone5@2x.png) no-repeat fixed;
 -o-background-size: cover;
 background-size: cover;   
 }
-dl.image_map { display:block; width:629px; height:1116px; background:url(http://tarazonacat.businesscatalyst.com/images/iphone5_plano.png); position:relative; margin:2px auto 2px auto;}
+dl.image_map { display:block; width:629px; height:1116px; background:url(../../images/iphone5_plano.png); position:relative; margin:2px auto 2px auto;}
 	a.LINK0 {left:251px; top:42px; background:transparent;}
 	a.LINK0 {display:block; width:52px; height:0; padding-top:92px; overflow:hidden; position:absolute;}
 	a.LINK0:hover  {background:transparent; border:1px dashed black; color:black;}
@@ -201,13 +201,13 @@ dl.image_map { display:block; width:629px; height:1116px; background:url(http://
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) and (orientation:landscape){    
     /* iPhone 5 only - landscape */
 	#page1	{
-background:url(../../images/home_iphone5_landscape@2x.png) no-repeat fixed;
+background:url(../../images/home_iphone5@2x.png) no-repeat fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;   
 }
-dl.image_map { display:block; width:629px; height:1116px; background:url(http://tarazonacat.businesscatalyst.com/images/iphone5_plano.png); position:relative; margin:2px auto 2px auto;}
+dl.image_map { display:block; width:629px; height:1116px; background:url(../../images/iphone5_plano.png); position:relative; margin:2px auto 2px auto;}
 	a.LINK0 {left:251px; top:42px; background:transparent;}
 	a.LINK0 {display:block; width:52px; height:0; padding-top:92px; overflow:hidden; position:absolute;}
 	a.LINK0:hover  {background:transparent; border:1px dashed black; color:black;}
@@ -290,7 +290,7 @@ background:url(../../images/home_iphone4@2x.png) no-repeat fixed;
 -o-background-size: cover;
 background-size: cover;  
 }
-dl.image_map { display:block; width:640px; height:900px; background:url(http://tarazonacat.businesscatalyst.com/images/iphone4_plano.png); position:relative; margin:2px auto 2px auto;}
+dl.image_map { display:block; width:640px; height:900px; background:url(../../images/iphone4_plano.png); position:relative; margin:2px auto 2px auto;}
 	a.LINK0 {left:251px; top:31px; background:transparent;}
 	a.LINK0 {display:block; width:52px; height:0; padding-top:82px; overflow:hidden; position:absolute;}
 	a.LINK0:hover  {background:transparent; border:1px dashed black; color:black;}
@@ -373,7 +373,7 @@ background:url(../../images/home_iphone4@2x.png) no-repeat fixed;
 -o-background-size: cover;
 background-size: cover;  
 }
-dl.image_map { display:block; width:640px; height:900px; background:url(http://tarazonacat.businesscatalyst.com/images/iphone4_plano.png); position:relative; margin:2px auto 2px auto;}
+dl.image_map { display:block; width:640px; height:900px; background:url(../../images/iphone4_plano.png); position:relative; margin:2px auto 2px auto;}
 	a.LINK0 {left:251px; top:31px; background:transparent;}
 	a.LINK0 {display:block; width:52px; height:0; padding-top:82px; overflow:hidden; position:absolute;}
 	a.LINK0:hover  {background:transparent; border:1px dashed black; color:black;}
@@ -450,13 +450,13 @@ dl.image_map { display:block; width:640px; height:900px; background:url(http://t
 @media only screen and (min-device-width: 320px)  and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) and (orientation:landscape){
     /*iPhone retina only - landscape */
 	#page1	{
-background:url(../../images/home_iphone4_landscape@2x.png) no-repeat fixed;
+background:url(../../images/home_iphone4@2x.png) no-repeat fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;  
 }
-dl.image_map { display:block; width:640px; height:900px; background:url(http://tarazonacat.businesscatalyst.com/images/iphone4_plano.png); position:relative; margin:2px auto 2px auto;}
+dl.image_map { display:block; width:640px; height:900px; background:url(../../images/iphone4_plano.png); position:relative; margin:2px auto 2px auto;}
 	a.LINK0 {left:251px; top:31px; background:transparent;}
 	a.LINK0 {display:block; width:52px; height:0; padding-top:82px; overflow:hidden; position:absolute;}
 	a.LINK0:hover  {background:transparent; border:1px dashed black; color:black;}
@@ -616,7 +616,7 @@ dl.image_map { display:block; width:320px; height:460px; background:url(../../im
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width: 321px) {
     #page1	{
-background:url(../../images/home_landscape@1x.png) no-repeat fixed;
+background:url(../../images/home@1x.png) no-repeat fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -782,7 +782,7 @@ dl.image_map {display:block; width:320px; height:460px; background:url(../../ima
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
   #page1	{
-background:url(../../images/home_ipad@2x.png) no-repeat fixed;
+background:url(../../images/home_ipad_portrait@2x.png) no-repeat fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -865,7 +865,7 @@ dl.image_map { display:block; width:768px; height:1004px; background:url(../../i
 /* iPads (landscape) -----------*/
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation:landscape){
   #page1	{
-background:url(../../images/home_ipad_landscape@2x.png) no-repeat fixed;
+background:url(../../images/home_ipad_portrait@2x.png) no-repeat fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
