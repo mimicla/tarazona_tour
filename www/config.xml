@@ -3,13 +3,13 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.phonegap.hello-world"
+        id        = "com.mimicla.TarazonaTour"
         version   = "1.0.0">
 
-    <name>Hello World</name>
+    <name>Tarazona Cathedral Tour</name>
 
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Tarazona (Zaragoza-Spain) Cathedral - 360º virtual reality Tours + Panoramic photos. Discover the surroundings and the history about this emblematic place representative of the 13th century of the Gothic and Mudejar style.
     </description>
 
     <author href="http://phonegap.com" email="support@phonegap.com">
@@ -27,7 +27,7 @@
         following tag to your config.xml; you will still have the INTERNET
         permission on your app, which PhoneGap requires.
     -->
-    <preference name="permissions"                value="none"/>
+    <preference name="permissions" value="none"/>
 
     <!-- Customize your app and platform with the preference element. -->
     <preference name="phonegap-version"           value="2.3.0" />          <!-- all: current version of PhoneGap -->
