@@ -54,9 +54,24 @@
     </td></tr>
     </table>
     </noscript>
-    <script>
-		embedpano({swf:"krpanoavl.swf", xml:"tar_mob5.xml", target:"pano", html5:"auto", passQueryParameters:true});
-	</script>
+        <script>
+  function selecthtml5usage()
+  {
+     // check for Android:
+     if( navigator.userAgent.indexOf("Android") >= 0 )
+       return "prefer"
+     
+     // check for IE10 with multi-touch display:
+     if( (navigator.msMaxTouchPoints|0) > 1 )
+       return "prefer"
+     
+     // for all other cases use html5=auto:
+     return "auto";
+  }
+  
+  embedpano({swf:"krpanoavl.swf", xml:"tar_mob5.xml", target:"pano", html5:selecthtml5usage(), passQueryParameters:true});
+
+</script>
     </div>
     </div>
 	<div data-role="footer" class="txtwrapper">
