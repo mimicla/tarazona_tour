@@ -39,8 +39,6 @@
 </head>
 <body>
 <script src="swfkrpano.js"></script>
-<script src="krpanoiphone.license.js"></script>
-<script src="krpanoiphone.js"></script>
 <div data-role="page" data-theme="a">
 	<div data-role="header">
         <a href="index.html" rel="external"><img src="css/themes/images/glyphicons_020_home.png" alt="home" class="ui-li-icon"></a>		
@@ -55,11 +53,8 @@
     </td></tr>
     </table>
     </noscript>
-        <script>
-
-  
-  embedpano({swf:"krpanoavl.swf", xml:"tar_mob5.xml", target:"pano", html5:"only", passQueryParameters:true});
-
+	<script>
+		embedpano({swf:"krpanoavl.swf", xml:"tar_mob5.xml", target:"pano", html5:"auto", passQueryParameters:true});
 </script>
     </div>
     </div>
