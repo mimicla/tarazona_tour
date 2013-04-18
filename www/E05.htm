@@ -55,7 +55,7 @@ if (/iPhone|iPod|iPad/.test(navigator.userAgent)) {
 
 $("iframe").bind("load",function() {
 	
-iframe.setAttribute('allowFullScreen', '')
+
 var b = this.contentWindow.document.body;
 
 var div = $(document.createElement("div"));
@@ -92,10 +92,10 @@ $(b).append(div);
 	     <script>
 
   
-  embedpano({swf:"krpanoavl.swf", xml:"tar_mob5.xml", target:"pano", html5:"always", passQueryParameters:true});
+  embedpano({swf:"krpanoavl.swf", xml:"tar_mob5.xml", target:"pano", html5:"auto", passQueryParameters:true});
 
 </script>
-<iframe src="http://tarazonacat.businesscatalyst.com/E05.htm" webkitAllowFullScreen allowFullScreen></iframe>
+<!--iframe src="http://tarazonacat.businesscatalyst.com/E05.htm" webkitAllowFullScreen allowFullScreen></iframe-->
 
     </div>
     </div>
