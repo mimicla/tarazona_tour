@@ -1,102 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Catedral de Tarazona</title>
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<meta name="HandheldFriendly" content="true">
-<meta name="MobileOptimized" content="width">
-<meta charset="utf-8" />
-<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" /><link rel="shortcut icon" href="images/icons/Icon-Small.ico">
-<link rel="shortcut icon" href="images/icons/Icon-Small.png">
-<link rel="apple-touch-icon" href="images/icons/icon.png" />
-<link rel="apple-touch-icon" sizes="72x72" href="images/icons/Icon-72.png" />
-<link rel="apple-touch-icon" sizes="114x114" href="images/icons/icon@2x.png" />
-<link rel="apple-touch-icon" sizes="144x144" href="images/icons/icon-72@2x.png" />
-<meta name="apple-mobile-web-app-capable" content="yes" />
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="description" content="Tarazona Cathedral is situated in Tarazona, Zaragoza province, Spain. Its architecture is representative of the Gothic and Mudéjar style, and is one of the few remaining examples of this type of architecture, along with Teruel Cathedral. La Catedral de Nuestra Señora de la Huerta de Tarazona (provincia de Zaragoza), de planta gótica clásica, es una de las construcciones más características del mudéjar en España, y una de las escasas catedrales edificadas en este estilo arquitectónico, junto con la de Teruel." />  
-<meta name="keywords" content="tarazona, catedral, monasterio, zaragoza, tour, gotico, mudejar, arquitectura, España, cathedral, architecture, Gothic, Mudéjar, Spain, Catedral de Nuestra Señora de la Huerta, Católico, Renacentista" />
-<script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
-<script type="text/javascript" charset="utf-8" src="childbrowser.js"></script>
-<script type="text/javascript" charset="utf-8" src="GAPlugin.js"></script>
-<!--Tarazona Tour colors jquery mobile css-->
-<link rel="stylesheet" href="css/themes/Tarazona.min.css" />
-<!-- jQuery Mobile Recent Stable Versions-->
-<link rel="stylesheet" href="css/themes/jquery.mobile.structure-1.2.0.min.css" />
-<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
-<script type="text/javascript" src="js/configs.js"></script> 
-<script type="text/javascript" src="js/jquery.mobile-1.2.0.min.js"></script>
-<style type="text/css" media="all">
-		@-ms-viewport { width: device-width; }
-		@media only screen and (min-device-width: 800px) { html { overflow:hidden; } }
-		html { height:100%; }
-		body { height:100%; overflow:hidden; margin:0; padding:0; font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#FFFFFF; background-color:#000000; }
-.txtwrapper{
-    font-size:xx-small;
-    text-align:center;
-}
-.image_size{
-	max-height:100%;max-width:100%; padding:9px 0px 9px 0px;
-	-webkit-border-radius:10px;
-	-moz-border-radius:10px;
-	-o-border-radius:10px;
-	border-radius:10px;
-	background:#B7847B;
-	-webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
-	-moz-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
-	box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
-	display:-moz-inline-block;}
-	</style>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
+  <title>Visita virtual panorámica 360º de la Catedral de Tarazona y su entorno</title>
+	<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta http-equiv="x-ua-compatible" content="IE=edge" />
+  <style type="text/css">
+    @media only screen and (min-device-width: 800px) { html { overflow:hidden; } }
+    * { padding: 0; margin: 0; }
+    html { height: 100%; }
+    body { height: 100%; overflow:hidden; background: #000000; color:#FFF;}
+    #container { height: 95%; min-height: 95%; width: 100%; margin: 0 auto; }
+	#banner { height: 35px; min-height: 35px; width: 100%; margin: 0 auto; background: url(panobanner.jpg);}
+	.banner_text { font-family: Arial, Helvetica, sans-serif; color: #cccccc; font-size: 16px; padding: 10px 15px 5px 0px;}
+	.banner_text a:link { text-decoration: none; color: #ff9933;}
+	.banner_text a:hover { text-decoration: none; color :#cccccc;}
+	.banner_text a:visited { text-decoration: none; color: #ff9933;}
+  </style>
 </head>
 <body>
-<script>
-$(function(){
-if (/iPhone|iPod|iPad/.test(navigator.userAgent)) {
-
-$("iframe").bind("load",function() {
-	
-
-var b = this.contentWindow.document.body;
-
-var div = $(document.createElement("div"));
-var divCSS = {
-'height' : $(this.parentNode).height(),
-'width' : $(this.parentNode).width(),
-'overflow' : 'scroll'
-}
-div.css(divCSS);
-
-// Move the body's children into this wrapper
-while (b.firstChild)
-{
-div.append(b.firstChild);
-}
-
-// Append the wrapper to the body
-$(b).append(div);
-});
-}
-})
-</script>
-<script src="swfkrpano.js"></script>
-<div data-role="page" data-theme="a">
-	<div data-role="header">
-        <a href="index.html" rel="external"><img src="css/themes/images/glyphicons_020_home.png" alt="home" class="ui-li-icon"></a>		
-        <h1>Virtual Tour</h1>
-	</div>
-	<div data-role="content" >	
+  <script src="swfkrpano.js"></script>
+  <div id="banner"><div class="banner_text" style="float: right;"><a href="index.html">Home</a></div></div>
+<div id="container">
     <div id="pano" style="width:100%;height:100%;">
 	<noscript><table style="width:100%;height:100%;"><tr style="valign:middle;"><td><div style="text-align:center;">ERROR:<br/><br/>Javascript not activated<br/><br/></div></td></tr></table></noscript>
 	    <script>
   embedpano({swf:"krpanoavl.swf", xml:"tar_mob1.xml", target:"pano", html5:"auto"});
 </script>
-<!--iframe src="http://tarazonacat.businesscatalyst.com/E04.htm"  webkitAllowFullScreen allowFullScreen></iframe-->
-
 </div>
     </div>
-	<div data-role="footer" class="txtwrapper">
-  <p>&copy;2013 Todos los derechos reservados</p>
-</div>
-</div>
 </body>
 </html>
