@@ -49,6 +49,35 @@
 	</style>
 </head>
 <body>
+<script>
+$(function(){
+if (/iPhone|iPod|iPad/.test(navigator.userAgent)) {
+
+$("iframe").bind("load",function() {
+	
+iframe.setAttribute('allowFullScreen', '')
+var b = this.contentWindow.document.body;
+
+var div = $(document.createElement("div"));
+var divCSS = {
+'height' : $(this.parentNode).height(),
+'width' : $(this.parentNode).width(),
+'overflow' : 'scroll'
+}
+div.css(divCSS);
+
+// Move the body's children into this wrapper
+while (b.firstChild)
+{
+div.append(b.firstChild);
+}
+
+// Append the wrapper to the body
+$(b).append(div);
+});
+}
+})
+</script>
 <script src="swfkrpano.js"></script>
 <div data-role="page" data-theme="a">
 	<div data-role="header">
@@ -61,7 +90,7 @@
 	    <script>
   embedpano({swf:"krpanoavl.swf", xml:"tar_mob1.xml", target:"pano", html5:"always"});
 </script>
-<object type="text/html" data="http://tarazonacat.businesscatalyst.com/E04.htm"  class="image_size"></object>
+<iframe src="http://tarazonacat.businesscatalyst.com/E04.htm"  webkitAllowFullScreen allowFullScreen></iframe>
 
 </div>
     </div>

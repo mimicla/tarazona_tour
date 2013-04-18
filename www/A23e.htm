@@ -54,6 +54,8 @@ $(function(){
 if (/iPhone|iPod|iPad/.test(navigator.userAgent)) {
 
 $("iframe").bind("load",function() {
+	
+iframe.setAttribute('allowFullScreen', '')
 var b = this.contentWindow.document.body;
 
 var div = $(document.createElement("div"));
@@ -92,7 +94,7 @@ $(b).append(div);
   embedpano({swf:"krpanoavl.swf", xml:"tarcat_mob13.xml", target:"pano", html5:"always", passQueryParameters:true});
 
 </script>
-<iframe src="http://tarazonacat.businesscatalyst.com/A23e.htm"></iframe>
+<iframe src="http://tarazonacat.businesscatalyst.com/A23e.htm" webkitAllowFullScreen allowFullScreen></iframe>
 </div>
     </div>
 	<div data-role="footer" class="txtwrapper">
