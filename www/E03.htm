@@ -16,9 +16,6 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="description" content="Tarazona Cathedral is situated in Tarazona, Zaragoza province, Spain. Its architecture is representative of the Gothic and Mudéjar style, and is one of the few remaining examples of this type of architecture, along with Teruel Cathedral. La Catedral de Nuestra Señora de la Huerta de Tarazona (provincia de Zaragoza), de planta gótica clásica, es una de las construcciones más características del mudéjar en España, y una de las escasas catedrales edificadas en este estilo arquitectónico, junto con la de Teruel." />  
 <meta name="keywords" content="tarazona, catedral, monasterio, zaragoza, tour, gotico, mudejar, arquitectura, España, cathedral, architecture, Gothic, Mudéjar, Spain, Catedral de Nuestra Señora de la Huerta, Católico, Renacentista" />
-<script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
-<script type="text/javascript" charset="utf-8" src="childbrowser.js"></script>
-<script type="text/javascript" charset="utf-8" src="GAPlugin.js"></script>
 <!--Tarazona Tour colors jquery mobile css-->
 <link rel="stylesheet" href="css/themes/Tarazona.min.css" />
 <!-- jQuery Mobile Recent Stable Versions-->
@@ -35,58 +32,16 @@
     font-size:xx-small;
     text-align:center;
 }
-.image_size{
-	max-height:100%;max-width:100%; padding:9px 0px 9px 0px;
-	-webkit-border-radius:10px;
-	-moz-border-radius:10px;
-	-o-border-radius:10px;
-	border-radius:10px;
-	background:#B7847B;
-	-webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
-	-moz-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
-	box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
-	display:-moz-inline-block;}
 	</style>
 </head>
 <body>
-<script>
-$(function(){
-if (/iPhone|iPod|iPad/.test(navigator.userAgent)) {
-
-$("iframe").bind("load",function() {
-	
-
-var b = this.contentWindow.document.body;
-
-var div = $(document.createElement("div"));
-var divCSS = {
-'height' : $(this.parentNode).height(),
-'width' : $(this.parentNode).width(),
-'overflow' : 'scroll'
-}
-div.css(divCSS);
-
-// Move the body's children into this wrapper
-while (b.firstChild)
-{
-div.append(b.firstChild);
-}
-
-// Append the wrapper to the body
-$(b).append(div);
-});
-}
-})
-</script>
 <script src="swfkrpano.js"></script>
-<script src="krpanoiphone.license.js"></script>
-<script src="krpanoiphone.js"></script>
 <div data-role="page" data-theme="a">
 	<div data-role="header">
         <a href="index.html" rel="external"><img src="css/themes/images/glyphicons_020_home.png" alt="home" class="ui-li-icon"></a>		
         <h1>Virtual Tour</h1>
 	</div>
-	<!--div data-role="content"-->	
+	<div data-role="content">	
     <div id="pano" style="width:100%;height:100%;">
 	<noscript><table style="width:100%;height:100%;"><tr style="valign:middle;"><td><div style="text-align:center;">ERROR:<br/><br/>Javascript not activated<br/><br/></div></td></tr></table></noscript>
 	    <script>
@@ -94,7 +49,7 @@ $(b).append(div);
 </script>
 <!--iframe src="http://tarazonacat.businesscatalyst.com/E03.htm"  webkitAllowFullScreen allowFullScreen></iframe-->
 
-<!--/div-->
+</div>
     </div>
 	<div data-role="footer" class="txtwrapper">
   <p>&copy;2013 Todos los derechos reservados</p>
