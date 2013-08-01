@@ -701,7 +701,7 @@ dl.image_map { display:block; width:320px; height:460px; background:url(../../im
 /* #### target mobile devices with max device width 480px #### */
 /*@media screen and (max-device-width: 480px){*/
     #page1	{
--webkit-background-size: 100% auto; /* image to 100% dimensions */
+/*-webkit-background-size: 100% auto; /* image to 100% dimensions */
 background:url(../../images/home@1x.png) no-repeat fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
