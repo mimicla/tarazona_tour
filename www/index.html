@@ -54,6 +54,16 @@ $(document).ready(function() {
     });
 });
 </script-->
+<script type="text/javascript">
+if (useragent.indexOf('android') != -1) {
+
+		document.addEventListener("deviceready", onDeviceReady, false);
+		function onDeviceReady() {
+			console.log('onDeviceReady.... ');
+		    cordova.exec(null, null, "SplashScreen", "hide", []);
+		 }
+	} 
+</script>
 </head> 
 <body>     
 <div id="page1" data-role="page" data-theme="b">

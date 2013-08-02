@@ -43,8 +43,10 @@
 <!--<gap:plugin name="Example" />  A list of available plugins are available at https://build.phonegap.com/docs/plugins--> 
 <gap:plugin name="com.phonegap.plugins.childbrowser" />	
 <gap:plugin name="com.adobe.plugins.gaplugin" />
-<!--Splash Screen Duration--> 
-<preference name="splash-screen-duration" value="10000" />
+<!--Splash Screen Duration, default value is 5 sg, 50000--> 
+<!--<preference name="splash-screen-duration" value="10000" />--> 
+<!--load url timeout, 20 seg per default, 20000-->
+<preference name="load-url-timeout" value="120000" />
 <!-- Define app icon for each platform. -->    
 <icon src="tarazona_tour/images/icons/icon.png" />    
 <icon src="images/icons/drawable-ldpii/ic_launcher.png" gap:platform="android" gap:density="ldpi" />    
