@@ -57,7 +57,6 @@
 <gap:plugin name="SplashScreen" value="org.apache.cordova.SplashScreen"/>
 <!-- splash screen ios -->
 <!--<gap:plugin name="SplashScreen" value="CDVSplashScreen" />-->
-<gap:plugin name="Analytics" /> 
 <!--Splash Screen Duration, default value is 5 sg, 50000--> 
 <!--<preference name="splash-screen-duration" value="10000" />--> 
 <!--load url timeout, 20 seg per default, 20000-->
