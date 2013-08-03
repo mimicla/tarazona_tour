@@ -53,7 +53,10 @@
 <!--<gap:plugin name="Example" />  A list of available plugins are available at https://build.phonegap.com/docs/plugins--> 
 <gap:plugin name="com.phonegap.plugins.childbrowser" />	
 <gap:plugin name="com.adobe.plugins.gaplugin" />
+<!-- splash screen android -->
 <gap:plugin name="SplashScreen" value="org.apache.cordova.SplashScreen"/>
+<!-- splash screen ios -->
+<gap:plugin name="SplashScreen" value="CDVSplashScreen" />
 <gap:plugin name="Analytics" /> 
 <!--Splash Screen Duration, default value is 5 sg, 50000--> 
 <!--<preference name="splash-screen-duration" value="10000" />--> 
