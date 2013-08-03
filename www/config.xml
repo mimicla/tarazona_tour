@@ -54,7 +54,7 @@
 <gap:plugin name="com.phonegap.plugins.childbrowser" />	
 <gap:plugin name="com.adobe.plugins.gaplugin" />
 <!-- splash screen android -->
-<gap:plugin name="SplashScreen" value="org.apache.cordova.SplashScreen"/>
+<!--<gap:plugin name="SplashScreen" value="org.apache.cordova.SplashScreen"/>-->
 <!-- splash screen ios -->
 <!--<gap:plugin name="SplashScreen" value="CDVSplashScreen" />-->
 <!--Splash Screen Duration, default value is 5 sg, 50000--> 
