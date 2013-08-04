@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<widget xmlns = "http://www.w3.org/ns/widgets"
+		xmlns:gap = "http://phonegap.com/ns/1.0"
+		id        = "com.mimicla.TarazonaTour"
+		versionCode="1.1.0"
+		version   = "1.0.0">
+		<name>Tarazona Cathedral Tour</name>
+		<description>
+Tarazona (Zaragoza-Spain) Cathedral - 360º virtual reality Tours + Panoramic photos. Discover the surroundings and the history about this emblematic place representative of the 13th century of the Gothic and Mudejar style.		</description>
+		<author href="http://www.veintiocho.com/" email="miriam.clavel@gmail.com">
+Miriam Clavel
+		</author>
+		<preference name="phonegap-version" value="2.9.0" />
+		<preference name="orientation" value="portrait" />
+		<preference name="target-device" value="universal" />
+		<preference name="fullscreen" value="true" />
+		<preference name="webviewbounce" value="true" />
+		<preference name="prerendered-icon" value="true" />
+		<preference name="stay-in-webview" value="true" />
+		<preference name="ios-statusbarstyle" value="black-transparent" />
+		<preference name="detect-data-types" value="true" />
+		<preference name="exit-on-suspend" value="true" />
+		<preference name="show-splash-screen-spinner" value="true" />
+		<preference name="auto-hide-splash-screen" value="true" />
+		<preference name="disable-cursor" value="true" />
+		<preference name="android-minSdkVersion" value="7" />
+		<preference name="android-maxSdkVersion" value="17" />
+		<preference name="android-installLocation" value="auto" />
+		<preference name="splash-screen-duration" value="5000" />
+		<preference name="load-url-timeout" value="120000" />
+		<feature name="http://api.phonegap.com/1.0/network"/>
+		<feature name="http://api.phonegap.com/1.0/device"/>
+		<icon src="images/icons/Icon.png" gap:platform="ios" width="57" height="57" />
+		<icon src="images/icons/Icon-72.png" gap:platform="ios" width="72" height="72" />
+		<icon src="images/icons/Icon@2x.png" gap:platform="ios" width="114" height="114" />
+		<icon src="images/icons/Icon-72@2x.png" gap:platform="ios" width="144" height="144" />
+		<icon src="images/icons/drawable-hdpi/ic_launcher.png" gap:platform="android" gap:density="ldpi" />
+		<icon src="images/icons/drawable-mdpi/ic_launcher.png" gap:platform="android" gap:density="mdpi" />
+		<icon src="images/icons/drawable-hdpi/ic_launcher.png" gap:platform="android" gap:density="hdpi" />
+		<icon src="images/icons/drawable-xhdpi/ic_launcher.png" gap:platform="android" gap:density="xhdpi" />
+		<gap:splash src="images/splash/ios/screen-iphone-portrait.png" width="320" height="480" />
+		<gap:splash src="images/splash/ios/screen-ipad-landscape.png" width="480" height="320" />
+		<gap:splash src="images/splash/ios/screen-iphone-portrait-2x.png" width="640" height="960" />
+		<gap:splash src="images/splash/ios/Default-Landscape_at_2x.png" width="960" height="640" />
+		<gap:splash src="images/splash/ios/Default-Portrait_at_2x.png" width="640" height="1136" />
+		<gap:splash src="images/splash/ios/Default-Landscape_at_2x.png" width="1136" height="640" />
+		<gap:splash src="images/splash/ios/screen-ipad-portrait.png" width="768" height="1024 " />
+		<gap:splash src="images/splash/ios/screen-ipad-landscape.png" width="1024" height="768" />
+		<gap:splash src="images/splash/ios/Default-Portrait_at_2x.png" width="1536" height="2008" />
+		<gap:splash src="images/splash/ios/Default-Landscape_at_2x.png" width="2048" height="1536" />
+		<gap:splash src="images/splash/android/screen-ldpi-portrait.png" gap:platform="android" gap:density="ldpi" />
+		<gap:splash src="images/splash/android/screen-mdpi-portrait.png" gap:platform="android" gap:density="mdpi" />
+		<gap:splash src="images/splash/android/screen-hdpi-portrait.png" gap:platform="android" gap:density="hdpi" />
+		<gap:splash src="images/splash/android/screen-xhdpi-portrait.png" gap:platform="android" gap:density="xhdpi" />
+		<access origin="http://127.0.0.1*" />
+		<access origin="*" browserOnly="true"  />
+		<gap:plugin name="Analytics" />
+	</widget>
