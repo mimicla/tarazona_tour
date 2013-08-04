@@ -54,5 +54,4 @@ Miriam Clavel
 		<gap:splash src="images/splash/android/screen-xhdpi-portrait.png" gap:platform="android" gap:density="xhdpi" />
 		<access origin="http://127.0.0.1*" />
 		<access origin="*" browserOnly="true"  />
-		<gap:plugin name="Analytics" />
 	</widget>
