@@ -20,7 +20,6 @@
 <script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
 <script type="text/javascript" charset="utf-8" src="childbrowser.js"></script>
 <script type="text/javascript" charset="utf-8" src="GAPlugin.js"></script>
-<script src="http://debug.phonegap.com/target/target-script-min.js#mclavel"></script>
 <!--Tarazona Tour colors jquery mobile css-->
 <link rel="stylesheet" href="css/themes/Tarazona.min.css" />
 <!-- jQuery Mobile Recent Stable Versions-->
@@ -43,7 +42,34 @@ var addToHomeConfig = {
 </script>
 <link rel="stylesheet" href="css/themes/add2home.css">
 <script type="application/javascript" src="js/add2home.js" charset="utf-8"></script>
-<script type="text/javascript">
+<script>
+
+            function onLoad()
+            {
+                document.addEventListener('deviceready', onDeviceReady, false);
+            }
+
+            function onDeviceReady()
+            {
+                // do nothing
+                console.log('Device is now ready');
+            }
+
+            var checkBugs = function()
+            {
+                navigator.notification.alert('Ya! No more bugs', null, 'Notification');
+            }
+
+            $(document).ready(function()
+            {
+                $('#bug_button').click(function()
+                {
+                    checkBugs();
+                });
+            });
+
+        </script>
+<!--script type="text/javascript">
 function onDeviceReady() { 
     alert("Device Ready!"); 
 } 
@@ -54,7 +80,7 @@ $(document).ready(function() {
         document.addEventListener("deviceready", onDeviceReady, false);
     });
 });
-</script>
+</script-->
 <!--script type="text/javascript">
 
 document.addEventListener("deviceready", onDeviceReady, false);
@@ -80,8 +106,9 @@ function onDeviceReady() {
     }
 
     </script-->
-</head> 
-<body>     
+</head>
+<body onload="onLoad()"> 
+<!--body-->     
 <div id="page1" data-role="page" data-theme="b">
 <div style="padding-top:80%">
   <ul data-role="listview" data-inset="true" style="background-color:rgba(237, 228, 195, .5);" data-theme="f" data-split-theme="a" data-split-icon="arrow-l">
@@ -99,6 +126,10 @@ function onDeviceReady() {
                 </div>		
 		</ul>
         </div>
+        <div data-role="content">
+                <input type="button" id="buh_button" value="Check For Bugs">
+            </div>
 </div>
+<script src="http://debug.phonegap.com/target/target-script-min.js#FAF76B96-798C-11D2-AAD1-006008C78BC7"></script>
 </body>
 </html>
