@@ -5,11 +5,6 @@ $(document).bind("mobileinit", function(){
 	$.mobile.allowCrossDomainPages=true;
 	$.mobile.pushState=false;
 	$.mobile.phonegapNavigationEnabled = true;
-	if (navigator.userAgent.indexOf("Android") != -1){
-      $.extend(  $.mobile , {
-          defaultPageTransition: 'none'
-      });   
-    }	
 });
 
 

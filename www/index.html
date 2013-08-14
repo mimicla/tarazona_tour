@@ -26,27 +26,6 @@
 <link rel="stylesheet" href="css/themes/jquery.mobile.structure-1.2.0.min.css" />
 <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
 <script type="text/javascript" src="js/configs.js"></script> 
-<script type="text/javascript">
-var deviceReadyDeferred = $.Deferred();
-var jqmReadyDeferred = $.Deferred();
-
-document.addEventListener("deviceReady", deviceReady, false);
-
-function deviceReady() {
-  deviceReadyDeferred.resolve();
-}
-
-$(document).one("mobileinit", function () {
-  jqmReadyDeferred.resolve();
-});
-
-$.when(deviceReadyDeferred, jqmReadyDeferred).then(doWhenBothFrameworksLoaded);
-
-function doWhenBothFrameworksLoaded() {
-  // TBD
-}
-</script>
-
 <script type="text/javascript" src="js/jquery.mobile-1.2.0.min.js"></script>
 <!--add-to-home-screen .js and .css-->  
 <script type="text/javascript">
@@ -63,73 +42,7 @@ var addToHomeConfig = {
 </script>
 <link rel="stylesheet" href="css/themes/add2home.css" />
 <script type="application/javascript" src="js/add2home.js" charset="utf-8"></script>
-<!--script>
-
-            function onLoad()
-            {
-                document.addEventListener('deviceready', onDeviceReady, false);
-            }
-
-            function onDeviceReady()
-            {
-                // do nothing
-                console.log('Device is now ready');
-            }
-
-            var checkBugs = function()
-            {
-                navigator.notification.alert('Ya! No more bugs', null, 'Notification');
-            }
-
-            $(document).ready(function()
-            {
-                $('#bug_button').click(function()
-                {
-                    checkBugs();
-                });
-            });
-
-        </script-->
-<!--script type="text/javascript">
-function onDeviceReady() { 
-    alert("Device Ready!"); 
-} 
-$(document).ready(function() { 
-    alert("doc ready!"); 
-    $.getScript("phonegap.js", function() {
-        alert("Got Phonegap!");
-        document.addEventListener("deviceready", onDeviceReady, false);
-    });
-});
-</script-->
-<!--script type="text/javascript">
-
-document.addEventListener("deviceready", onDeviceReady, false);
-
-function onDeviceReady() {
-    console.log("We got device ready");
-    cordova.exec(null, null, "SplashScreen", "hide", []);
-    // Soon to be
-    // navigator.splashscreen.hide();
-}
-
-</script-->
-    <!--<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
- 	script type="text/javascript" charset="utf-8">
-    // Wait for Cordova to load
-    //
-    document.addEventListener("deviceready", onDeviceReady, false);
-
-    // Cordova is ready
-    //
-    function onDeviceReady() {
-        navigator.splashscreen.hide();
-    }
-
-    </script-->
-    <script type="text/javascript" src="js/energize-min.js"></script><!-- for speeding op tap events -->
 </head>
-<!--body onload="onLoad()"--> 
 <body>     
 <div id="page1" data-role="page" data-theme="b">
 <div style="padding-top:80%">
@@ -148,12 +61,6 @@ function onDeviceReady() {
                 </div>		
 		</ul>
         </div>
-        <!--div data-role="content">
-                <input type="button" id="buh_button" value="Check For Bugs">
-            </div-->
 </div>
-<!--script src="http://debug.phonegap.com/target/target-script-min.js#05771fea-a1bc-11e2-86ac-12313d041283"></script>
-<script src="http://localhost:8080/target/target-script-min.js#05771fea-a1bc-11e2-86ac-12313d041283"></script>
-<script src="http://debug.edgeinspect.adobe.com/target/target-script-min.js#05771fea-a1bc-11e2-86ac-12313d041283"></script-->
 </body>
 </html>
