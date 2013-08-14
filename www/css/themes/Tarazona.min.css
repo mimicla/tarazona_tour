@@ -7,6 +7,9 @@
 * http://jquery.org/license
 *
 */
+.ui-page {
+    -webkit-backface-visibility: hidden;
+}
 .nav-glyphish-example .ui-btn .ui-btn-inner {
     padding-top: 37px !important; 
 }
