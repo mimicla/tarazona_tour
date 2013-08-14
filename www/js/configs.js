@@ -5,5 +5,6 @@ $(document).bind("mobileinit", function(){
 	$.mobile.allowCrossDomainPages=true;
 	$.mobile.pushState=false;
 	$.mobile.phonegapNavigationEnabled = true;
-    $.mobile.buttonMarkup.hoverDelay = 0;
 });
+
+
