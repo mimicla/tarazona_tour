@@ -151,7 +151,7 @@ background-size: cover;
 }
 }
 /* smartphone Android 480 (portrait) ----------- */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) and (orientation:portrait){
     #page1	{
 background:url(../../images/home@1x_480.png) no-repeat fixed;
 -webkit-background-size: cover;
@@ -161,9 +161,9 @@ background-size: cover;
 }
 }
 /* smartphone Android 720 (portrait) ----------- */
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 720px) and (orientation:portrait){
     #page1	{
-background:url(../../images/home@1x_720.png) no-repeat fixed;
+background:url(../../images/home@1x.png) no-repeat fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
